@@ -6,7 +6,8 @@ import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
 
 @RunWith(classOf[JUnitRunner])
-class RomanNumeralsConverterRecursive extends FlatSpec with ShouldMatchers {"1" should "be I" in {
+class RomanNumeralsConverterRecursiveSpec extends FlatSpec with ShouldMatchers {
+  "1" should "be I" in {
     RomanNumeralsConverter toRomanRecursive 1 should be === "I"
   }
   
@@ -14,7 +15,7 @@ class RomanNumeralsConverterRecursive extends FlatSpec with ShouldMatchers {"1" 
     RomanNumeralsConverter toRomanRecursive 2 should be === "II"
   }
   
-  "3" should "be III" in {
+  "3" should "be III" in { 
     RomanNumeralsConverter toRomanRecursive 3 should be === "III"
   }
   
@@ -49,7 +50,7 @@ class RomanNumeralsConverterRecursive extends FlatSpec with ShouldMatchers {"1" 
     RomanNumeralsConverter toRomanRecursive 12 should be === "XII" 
   }
  
- "16" should "be XVI" in {
+ "16" should "be XVI" in { 
     RomanNumeralsConverter toRomanRecursive 16 should be === "XVI" 
   }
  

@@ -12,7 +12,7 @@ class RomanNumeralsConverterSpec extends FlatSpec with ShouldMatchers {
   }
   
   "2" should "be II" in {
-    RomanNumeralsConverter toRoman 2 should be === "II"
+    RomanNumeralsConverter toRoman 2 should be === "II" 
   }
   
   "3" should "be III" in {
